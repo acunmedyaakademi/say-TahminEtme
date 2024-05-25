@@ -6,7 +6,7 @@ let oyuncuHamle = hamleler;
 
 console.log(bilgisayarHamle, oyuncuHamle);
 
-if (oyuncuHamle === bilgisayarHamle) {
+if (oyuncuHamle == bilgisayarHamle) {
   alert('Güzel Tahmin Kazandın :)');
 } else {
   alert('Ne Yazık ki Tekar Deneyin :/');
